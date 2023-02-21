@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3000
+
+POST {{baseUrl}}/contact
+Content-Type: application/json
+
+{
+    "email": "inae@teste.com",
+    "subject": "Teste 1",
+    "message": "Ola, estou testando o nodemailer"
+}
